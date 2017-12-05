@@ -33,7 +33,7 @@ public class CalcBorder extends JFrame {
 
     }
     public static void main(String [] args) {
-        Calculator calculator = new Calculator();
+        CalcBorder calculator = new CalcBorder();
         calculator.setSize(1000,1000);
         calculator.setTitle("Calculator");
         calculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

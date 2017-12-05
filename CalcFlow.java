@@ -34,7 +34,7 @@ public class CalcFlow extends JFrame {
         setContentPane(panel);
     }
     public static void main(String [] args) {
-        Calculator calculator = new Calculator();
+        CalcFlow calculator = new CalcFlow();
         calculator.setSize(1000,1000);
         calculator.setTitle("Calculator");
         calculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

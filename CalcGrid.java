@@ -34,7 +34,7 @@ public class CalcGrid extends JFrame {
         setContentPane(panel);
     }
     public static void main(String [] args) {
-        Calculator calculator = new Calculator();
+        CalcGrid calculator = new CalcGrid();
         calculator.setSize(1000,1000);
         calculator.setTitle("Calculator");
         calculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
