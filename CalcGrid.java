@@ -12,7 +12,7 @@ public class CalcGrid extends JFrame {
     private JTextField [] textFields = new JTextField[4];
     private JLabel label;
 
-    public Calculator() {
+    public CalcGrid() {
         textFields[0] = new JTextField(10);
         label = new JLabel(" 0.0");
         textFields[1] = new JTextField(10);
