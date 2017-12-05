@@ -8,8 +8,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.text.DecimalFormat;
 
-public class Calculator extends JFrame {
-
+public class CalcFlow extends JFrame {
     private JTextField [] textFields = new JTextField[4];
     private JLabel label;
 
@@ -25,17 +24,15 @@ public class Calculator extends JFrame {
         FlowLayout layout = new FlowLayout();
         JPanel panel = new JPanel(layout);
 
-
-        panel.add(textFields[0]);
+	panel.add(textFields[0]);
         panel.add(textFields[1]);
         panel.add(textFields[2]);
         panel.add(textFields[3]);
-
-        panel.add(button);
+	panel.add(button);
         panel.add(label);
+
         setContentPane(panel);
     }
-
     public static void main(String [] args) {
         Calculator calculator = new Calculator();
         calculator.setSize(1000,1000);

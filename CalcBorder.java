@@ -8,7 +8,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.text.DecimalFormat;
 
-public class Calculator extends JFrame {
+public class CalcBorder extends JFrame {
 
     private JTextField [] textFields = new JTextField[4];
     private JLabel label;
