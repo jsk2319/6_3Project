@@ -30,7 +30,7 @@ public class Calc extends JFrame {
         setContentPane(panel);
 	}
     public static void main(String [] args) {
-        CalcBorder calculator = new CalcBorder();
+        Calc calculator = new Calc();
         calculator.setSize(1000,1000);
         calculator.setTitle("Calculator");
         calculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
